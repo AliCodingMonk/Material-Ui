@@ -1,8 +1,8 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import back from "../../pictures/back.png";
-import CardSection from "./CardSections/CardSection";
+import back from "../../../pictures/back.png";
+import CardSection from "../CardSections/CardSection";
 import SearchBar from "./Search/SearchBar";
 
 const MainSection = () => {
@@ -12,7 +12,7 @@ const MainSection = () => {
       style={{
         backgroundImage: `url(${back})`,
         backgroundSize: "cover",
-        height: "90vh",
+        height: "85vh",
         padding: "0px 70px 0px 70px",
       }}
     >
