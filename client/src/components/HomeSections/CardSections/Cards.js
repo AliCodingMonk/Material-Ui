@@ -17,7 +17,8 @@ const StyledBox = styled(Box)(({ theme }) => ({
   backgroundColor: "white",
   "& .MuiTypography-root": {
     fontSize: "20px",
-    fontWeight: "bold",
+    fontFamily: "Poppins",
+    fontWeight: "500",
     color: "black",
   },
 
